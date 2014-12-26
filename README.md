@@ -2,6 +2,8 @@
 
 This is a wrapper module over the RabbitMQ Publish method for Request/Response message pattern.
 
+[![build status](https://secure.travis-ci.org/twilson63/jrp.png)](http://travis-ci.org/twilson63/jrp)
+
 ## Usage
 
 ``` js
