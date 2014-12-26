@@ -1,0 +1,23 @@
+{
+  "name": "jrp",
+  "version": "1.0.0",
+  "description": "A wrapper for the jackrabbit publish module",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test"
+  },
+  "keywords": [
+    "RabbitMQ",
+    "Microservices"
+  ],
+  "author": "Tom",
+  "license": "MIT",
+  "dependencies": {
+    "jackrabbit": "^3.0.8"
+  },
+  "devDependencies": {
+    "jrs": "^1.0.0",
+    "rewire": "^2.1.3",
+    "tap": "^0.4.13"
+  }
+}
