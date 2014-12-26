@@ -12,7 +12,8 @@ var search = jrp({
   queue: 'plasticman.search'
 });
 
-search({ index: 'myapp', type: 'error', q: 'Beep '}, function(err, results){
+search.publish({
+  index: 'myapp', type: 'error', q: 'Beep '}, function(err, results){
   console.log(results);
 });
 ```
@@ -43,6 +44,3 @@ see CONTRIBUTING.md
 
 * JackRabbit Module
 * NodeJS
-
-
-
